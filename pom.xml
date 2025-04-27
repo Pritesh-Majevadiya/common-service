@@ -12,6 +12,7 @@
 	<artifactId>common-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>common-service</name>
+	<packaging>jar</packaging>
 	<description>Add all common DTOs and Utilities</description>
 	<url/>
 	<licenses>
@@ -55,14 +56,5 @@
 			<version>3.17.0</version>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
